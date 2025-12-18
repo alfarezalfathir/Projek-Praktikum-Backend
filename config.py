@@ -1,1 +1,2 @@
-SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/project_praktikum"
+SQLALCHEMY_DATABASE_URI = "sqlite:///sprinkler.db"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
